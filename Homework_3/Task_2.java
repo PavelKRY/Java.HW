@@ -1,11 +1,11 @@
 import java.util.ArrayList;
-import java.util.Iterator;
+
 
 public class Task_2 {
     public static void main(String[] args) {
 
         ArrayList<Integer> nums= new ArrayList<>();
-        Iterator<Integer> iterator = nums.iterator();
+
 
         for(int i = 0; i < 10; i++){
             nums.add((int)(Math.random()*100));
